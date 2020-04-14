@@ -12,7 +12,6 @@ function App(props) {
   const [isAuthenticated, userHasAuthenticated] = useState(false);
   const [isAuthenticating, setIsAuthenticating] = useState(true);
   
-  console.log("inside App");
   useEffect(() => {
     onLoad();
   }, []);

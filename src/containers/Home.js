@@ -8,8 +8,6 @@ import "./Home.css";
 
 
 export default function Home() {
-
-  console.log("inside HOme");
   const [notes, setNotes] = useState([]);
   const { isAuthenticated } = useAppContext();
   const [isLoading, setIsLoading] = useState(true);
